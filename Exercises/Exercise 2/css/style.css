@@ -1,0 +1,149 @@
+:root {
+    --color-primary: #1f1f1f;
+    --color-secondary: #a9c056;
+    --color-tertiary: #4e5359;
+    --color-fourth: #f3f3f5;
+    --color-fifth: grey;
+    --color-sixth: #42454a;
+    --color-yellow-dark: #f69c1a;
+    --color-main:#f3f3f5;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+
+    background-color: var(--color-primary);
+
+}
+/*FONT-SIZES*/
+
+.ft-one {
+    font-size: 1.2rem;
+}
+
+.ft-two {
+    font-size: 1.6rem;
+}
+
+.ft-three {
+    font-size: 1.8rem;
+}
+
+.ft-four {
+    font-size: 2rem;
+}
+
+.ft-five {
+    font-size: 2.2rem;
+}
+
+.ft-five_prime {
+    font-size: 2.5rem;
+}
+
+.ft-six {
+    font-size: 2.6rem;
+}
+
+.ft-seven {
+    font-size: 2.8rem;
+}
+
+.ft-eight {
+    font-size: 3rem;
+}
+
+.ft-nine {
+    font-size: 3.3rem;
+}
+
+.ft-ten {
+    font-size: 3.6rem;
+}
+
+.ft-eleven {
+    font-size: 4.2rem;
+}
+
+.ft-twelve {
+    font-size: 5rem;
+}
+.ft-thriteen{
+    font-size: 6rem;
+}
+.ft-fourteen{
+    font-size: 7rem;
+}
+
+.container-style{
+    width: 63rem;
+    height: 43rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+}
+.header{
+    background-color: var(--color-secondary);
+    color: white;
+    font-weight: lighter;
+    padding: 3.5rem 0 5rem 0;
+
+}
+.main{
+    background-color: var(--color-main);
+}
+
+.list{
+    list-style-type: none;
+}
+.list-item{
+    padding: .5rem 0 .5rem .5rem;
+}
+.list-item{
+    background-color: var(--color-tertiary);
+    vertical-align: middle;
+}
+.list-item:first-child{
+    background-color: var(--color-sixth);
+    border-left: 2px solid var(--color-secondary);
+}
+.list-item:not(:last-child){
+    border-bottom: .5px solid var(--color-fifth);
+}
+.list-item:not(:first-child){
+    border-left: 2.5px solid darkblue;
+}
+.list-link:link,
+.list-link:visited{
+    color: white;
+}
+.basics{
+    color: var(--color-sixth);
+    font-size: 1rem;
+}
+.question{
+    color: var(--color-secondary);
+    font-size: 1.6rem;
+}
+.question-cell{
+    background-color: white;
+    position: relative;
+}
+.arow-down{
+    position: absolute;
+    right: .7rem;
+    top: .5rem;
+
+}
+.down-arrow{
+    color: var(--color-secondary);
+}

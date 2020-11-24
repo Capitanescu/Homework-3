@@ -1,0 +1,134 @@
+:root {
+    --color-primary: #232323;
+    --color-secondary: #37312f;
+    --color-tertiary: #23201d;
+    --color-fourth: #96c603;
+    --color-fifth: #433e3c;  /* writing */
+    --color-yellow-dark: #f69c1a;
+
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-primary);
+
+}
+/*FONT-SIZES*/
+
+.ft-one {
+    font-size: 1.2rem;
+}
+
+.ft-two {
+    font-size: 1.6rem;
+}
+
+.ft-three {
+    font-size: 1.8rem;
+}
+
+.ft-four {
+    font-size: 2rem;
+}
+
+.ft-five {
+    font-size: 2.2rem;
+}
+
+.ft-five_prime {
+    font-size: 2.5rem;
+}
+
+.ft-six {
+    font-size: 2.6rem;
+}
+
+.ft-seven {
+    font-size: 2.8rem;
+}
+
+.ft-eight {
+    font-size: 3rem;
+}
+
+.ft-nine {
+    font-size: 3.3rem;
+}
+
+.ft-ten {
+    font-size: 3.6rem;
+}
+
+.ft-eleven {
+    font-size: 4.2rem;
+}
+
+.ft-twelve {
+    font-size: 5rem;
+}
+.ft-thriteen{
+    font-size: 6rem;
+}
+.ft-fourteen{
+    font-size: 7rem;
+}
+
+
+/*COLORS*/
+.green-text{
+    color: var(--color-fourth);
+}
+
+/*PAPER STYLE*/
+.container-style{
+    background-color: var(--color-secondary);
+}
+.main-paper{
+    margin: 3.5rem auto;
+    padding: 3.5rem 4rem;
+    width: 60rem;
+    height: 95rem;
+    background-color: var(--color-tertiary);
+
+}
+.border-row{
+    border-bottom: 1px solid var(--color-fifth);
+}
+.border-top-row{
+    border-top: 1px solid var(--color-fifth);
+}
+.logo-asterix{
+    color: var(--color-fourth);
+    vertical-align: top;
+    position: absolute;
+    top: .79rem;
+
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.success-install{
+    color: rgba(255,255,255,0.7);
+}
+.underlined-text:link,
+.underlined-text:visited{
+    text-decoration: underline;
+    transition: all .4s;
+}
+.underlined-text:hover,
+.underlined-text:active{
+    color: var(--color-yellow-dark);
+}
+.footer-text{
+    color: var(--color-fifth);
+}

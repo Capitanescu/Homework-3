@@ -1,0 +1,178 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #11568d;   /* middle box bg */
+    --color-tertiary: #262626; /* main title bg */
+    --color-fourth: #87a3b9;  /* titles color */
+    --color-fifth: #002e52;  /* active link*/
+    --color-sixth: #d2a763;  /* personal word*/
+    --color-seven: #e2d8cf;  /* links*/
+    --color-yellow-dark: #f69c1a;
+
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--color-primary);
+
+}
+/*FONT-SIZES*/
+
+.ft-one {
+    font-size: 1.2rem;
+}
+.ft-one-prime{
+    font-size: 1.5rem;
+}
+.ft-two {
+    font-size: 1.6rem;
+}
+
+.ft-three {
+    font-size: 1.8rem;
+}
+
+.ft-four {
+    font-size: 2rem;
+}
+
+.ft-five {
+    font-size: 2.2rem;
+}
+
+.ft-five_prime {
+    font-size: 2.5rem;
+}
+
+.ft-six {
+    font-size: 2.6rem;
+}
+
+.ft-seven {
+    font-size: 2.8rem;
+}
+
+.ft-eight {
+    font-size: 3rem;
+}
+
+.ft-nine {
+    font-size: 3.3rem;
+}
+
+.ft-ten {
+    font-size: 3.6rem;
+}
+
+.ft-eleven {
+    font-size: 4.2rem;
+}
+
+.ft-twelve {
+    font-size: 5rem;
+}
+.ft-thriteen{
+    font-size: 6rem;
+}
+.ft-fourteen{
+    font-size: 7rem;
+}
+
+/*MIDDLE CONTAINER*/
+
+.middle-container{
+    width: 56.5rem;
+    height: 54rem;
+    background-color: var(--color-secondary);
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.personal-web{
+    background-color: var(--color-tertiary);
+    position: absolute;
+    top: 3.1rem;
+    left: 0;
+    padding-right: 4rem;
+}
+.main-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: .7;
+    padding-top: 1rem;
+    color: var(--color-seven);
+}
+.subtitle{
+    color: var(--color-seven);
+}
+.personal{
+    color: var(--color-sixth);
+}
+
+.menu{
+    color: var(--color-seven);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+
+}
+.container-style{
+    padding-right: 2.4rem;
+}
+.navigation-list{
+    list-style-type: none;
+}
+.navigation-item:not(:first-child){
+    padding-bottom: 1.5rem;
+}
+.navigation-item:first-child{
+    background-color: var(--color-fifth);
+    width: 56.5%;
+    margin: 1.5rem auto;
+}
+.navigation-link:link,
+.navigation-link:visited{
+    text-decoration: none;
+    font-size: 1rem;
+ color: var(--color-seven);
+}
+.navigation-link:hover,
+.navigation-link:active{
+    text-decoration: none;
+    color: var(--color-yellow-dark);
+}
+.right-side{
+    background-color: white;
+}
+.article-title{
+    color: var(--color-fourth);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.sentences{
+    padding-left: 2rem;
+}
+.sentence{
+    color: var(--color-fourth);
+    font-weight: 700;
+}
+.sentence-mark-up{
+    color: var(--color-fifth);
+    font-weight: 700;
+    transition: all .4s;
+}
+.sentence-mark-up:hover{
+    cursor: pointer;
+    color: var(--color-yellow-dark);
+
+}

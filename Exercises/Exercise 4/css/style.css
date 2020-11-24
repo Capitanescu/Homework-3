@@ -1,0 +1,143 @@
+:root {
+    --color-primary: #202020;
+    --color-secondary: #99def2;
+    --color-tertiary: #0386ad;
+    --color-fourth: #f6ffc6;
+    --color-fifth: #a7c129;
+    --color-yellow-dark: #f69c1a;
+
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-primary);
+
+}
+/*FONT-SIZES*/
+
+.ft-one {
+    font-size: 1.2rem;
+}
+.ft-one-prime{
+    font-size: 1.5rem;
+}
+.ft-two {
+    font-size: 1.6rem;
+}
+
+.ft-three {
+    font-size: 1.8rem;
+}
+
+.ft-four {
+    font-size: 2rem;
+}
+
+.ft-five {
+    font-size: 2.2rem;
+}
+
+.ft-five_prime {
+    font-size: 2.5rem;
+}
+
+.ft-six {
+    font-size: 2.6rem;
+}
+
+.ft-seven {
+    font-size: 2.8rem;
+}
+
+.ft-eight {
+    font-size: 3rem;
+}
+
+.ft-nine {
+    font-size: 3.3rem;
+}
+
+.ft-ten {
+    font-size: 3.6rem;
+}
+
+.ft-eleven {
+    font-size: 4.2rem;
+}
+
+.ft-twelve {
+    font-size: 5rem;
+}
+.ft-thriteen{
+    font-size: 6rem;
+}
+.ft-fourteen{
+    font-size: 7rem;
+}
+
+/*MIDDLE CONTAINER*/
+
+.middle-container{
+    width: 63rem;
+    height: 45rem;
+    background-color: var(--color-secondary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle-title{
+    font-weight: 900;
+}
+
+   /*NAVIGATION STYLE*/
+.navigation-list{
+    list-style-type: none;
+}
+.navigation-item{
+    display: inline-block;
+}
+.navigation-item:not(:last-child){
+    margin-right: 2px;
+}
+.navigation-link:link,
+.navigation-link:visited{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .2rem .4rem;
+    background-color: var(--color-fourth);
+    border: 2px solid var(--color-fifth);
+    border-radius: 2px;
+    color: black;
+}
+
+/*ORANGE DESCRIPTION*/
+
+.orange-description{
+    width: 85%;
+    border: 3px solid var(--color-tertiary);
+    border-radius: 1rem;
+    margin: 0 auto;
+    background-color: white;
+}
+.descriptive-text{
+    width: 90%;
+}
+.products{
+    width: 15%;
+    margin-left: 2rem;
+    font-weight: 900;
+}
+.oranges{
+    float: left;
+    width: 20%;
+}
