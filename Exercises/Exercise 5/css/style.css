@@ -195,7 +195,7 @@ body{
     list-style-type: circle;
 }
 .footer-item:not(:last-child){
-    padding-right: 1rem;
+    padding-right: 2.3rem;
 }
 .footer-style{
     font-size: 1.4rem;
